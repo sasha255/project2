@@ -1,0 +1,118 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    
+    margin: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: #c5ecf1;
+    padding: ;
+    width: 400px;
+    margin: 30px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #36bbce;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: #36bbce;
+    padding: ;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin-right: 20px;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+body {
+    background-color: #c5ecf1;
+}
+
+.nav-link:hover {
+    color: dimgray;
+    text-decoration: underline;
+}
+
+.article-but:hover {
+    background-color: #207a88;
+    color:white;
+}
+
+.button:hover {
+     background-color: #207a88;
+    color:white;
+}
+
+.button {
+    transition: 0.3s linear;
+}
+
+.article-but {
+    border-radius: 10px;
+    transition: 0.3s linear;
+}
+
+.nav-link {
+    transition: 0.3s linear;
+}
